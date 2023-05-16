@@ -18,22 +18,28 @@
         <div class="map">
             <img src="Map.png" alt="map" title="map">
        </div>
-        <h3>African area</h3>
+       <div class="african-area">
+        <a href="african area">African area</a>
+       </div>
         <p>Step into the African Savannah
 
-            Experience the magic of Africa's diverse and captivating landscapes, right here in South Canterbury! Our African area is home to some of the continent's most iconic animals, including the majestic lion, the swift cheetah, and the towering giraffe. 
+            Experience the magic of Africa's diverse and captivating landscapes, right here in South Canterbury! 
+            Our African area is home to some of the continent's most iconic animals, including the majestic lion, the swift cheetah, and the towering giraffe. 
             
             Stroll through our park and observe these magnificent creatures up close, while learning about their natural habitats, behaviors, and the conservation efforts in place to protect their future. Don't miss our daily animal encounters, feeding sessions, and interactive talks led by our passionate team of animal experts. Unleash your inner explorer and experience the African Savannah today!
             </p>
-        <h4>America area</h4>
+        <div class="american-area">
+        <a href="american area">America area</a>
+        </div>
         <p>Discover the American Wilderness
 
             Venture into the heart of the American wilderness and connect with the rugged beauty of North America's most captivating species. Our American area showcases the incredible bison, the mighty moose, and the industrious beaver – each with their own unique charm and allure.
             
             Immerse yourself in the rich tapestry of the American landscape, as you learn about the vital roles these animals play in their ecosystems and the importance of conservation efforts in preserving their habitats. Join us for guided tours, educational talks, and special events that celebrate the diverse wildlife of the American continent. 
             </p>
-    
-        <h5>Arctic area</h5>
+        <div class="arctic-area">
+        <a href="arctic area">Arctic area</a>
+        </div>
         <p>Explore the Enchanting Arctic Tundra
 
             Embrace the chill and journey to the frozen wonders of the Arctic, where you'll encounter some of the world's most remarkable cold-weather inhabitants. Our Arctic area features the awe-inspiring polar bear, the cunning arctic fox, and the charming fur seal, each perfectly adapted to life in the icy tundra.
@@ -94,25 +100,114 @@
     .map img{
         width:100%; 
         height:auto;
+        margin-bottom:10%;
     }
-    
-    h3{
-        font-size: 1rem;
-        font-family:'Fira Sans Condensed', sans-serif;
-        color:#7F5539;
-        
-
+    .african-area a {
+    background: #7F5539;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 10px 25px;
+    color:#31572C;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    font-family:'Fira Sans Condensed', sans-serif;
     }
-    h4{
-        font-size: 1rem;
-        font-family:'Fira Sans Condensed', sans-serif;
-        color:#7F5539;
+    .african-area a:hover {
+    background: #A4AC86;
+    color: #31572C;
     }
-    h5{
-        font-size: 1rem;
-        font-family:'Fira Sans Condensed', sans-serif;
-        color:#7F5539;
+    .african-area a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #313131;
+    border-right: 3px solid #313131;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
     }
+    .african-area a:hover:after {
+    border-color:#7F5539;
+    }
+    .american-area a {
+    background: #7F5539;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 10px 25px;
+    color:#31572C;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    font-family:'Fira Sans Condensed', sans-serif;
+    }
+    .american-area a:hover {
+    background: #A4AC86;
+    color: #31572C;
+    }
+    .american-area a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #313131;
+    border-right: 3px solid #313131;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
+    }
+    .american-area a:hover:after {
+    border-color: #7F5539;
+    }
+    .arctic-area a {
+    background: #7F5539;
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 10px 25px;
+    color:#31572C;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    font-family:'Fira Sans Condensed', sans-serif;
+    }
+    .arctic-area a:hover {
+    background: #A4AC86;
+    color: #31572C;
+    }
+    .arctic-area a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #313131;
+    border-right: 3px solid #313131;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
+    }
+    .arctic-area a:hover:after {
+    border-color:#7F5539;
+    }
+   
     p{
         font-family:'Fira Sans Condensed', sans-serif;
     }
