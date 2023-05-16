@@ -13,6 +13,19 @@
 
         </ul>
     </nav>
+    <main>
+        <h2> Meet the Young Visionaries: Alex and Taylor</h2>
+
+        <p>At just 20 years old, Alex and Taylor, the dynamic duo behind South Canterbury's Premier Wildlife Park, have already made a significant impact in the world of wildlife conservation and education. Their passion for animals and the environment started at a young age, leading them to pursue their dream of creating a unique wildlife park that fosters a strong connection between people and nature.
+            
+            Alex, an avid wildlife enthusiast with a keen eye for detail, has been instrumental in designing the park's innovative and immersive habitats. Alex's deep understanding of animal behavior and welfare ensures that every aspect of the park prioritizes the comfort and well-being of its residents. From hands-on experience working with wildlife rehabilitation centers to extensive research, Alex's commitment to the animals is truly inspiring.
+            
+            Taylor, a natural-born educator with a flair for communication, is responsible for the park's diverse range of educational programs and activities. Taylor's infectious enthusiasm for wildlife and conservation resonates with visitors of all ages, making learning both engaging and enjoyable. With a background in environmental science, Taylor is dedicated to raising awareness about the importance of protecting our planet's rich biodiversity.
+            
+            Together, Alex and Taylor have turned their vision into a reality, creating a wildlife park that not only showcases some of the world's most extraordinary animals but also inspires a new generation of wildlife enthusiasts and conservationists. Their passion, dedication, and determination at such a young age serve as a testament to the power of following your dreams and making a difference in the world.
+        </p>    
+        
+    </main>
 </body>
 
 <footer>
@@ -55,13 +68,20 @@
             opacity: 1;
             text-align: center;
         }
+        h2{
+            font-family:'Fira Sans Condensed', sans-serif;
+            color:#7F5539;
+        }
+        p{
+            font-family:'Fira Sans Condensed', sans-serif;
+        }
         footer{
-        background-color:#31572C ;
-        font-family: 'Slackey', cursive;
-        text-align:center;
-        padding-top: 10px;
-        padding-bottom:10px;
-        color:#7F5539;
-        font-size: 1rem;
+            background-color:#31572C ;
+            font-family: 'Slackey', cursive;
+            text-align:center;
+            padding-top: 10px;
+            padding-bottom:10px;
+            color:#7F5539;
+            font-size: 1rem;
         }
     </style>
