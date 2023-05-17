@@ -80,7 +80,9 @@
         background-color: #7F5539;
     }
     img{
-        width:100%;
+        width:50%;
+        margin: auto;
+        display: block;
     }
     h3{
         font-size:1.5rem;
