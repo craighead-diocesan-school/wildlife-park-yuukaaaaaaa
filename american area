@@ -14,6 +14,22 @@
         </ul>
     </nav>
     <main>
+        <h2>Meet the Stars of Our American Wilderness
+        </h2>
+        <img src="bison-1-pete-nuij.jpg" alt="pictue of bison" title="bison">
+        <h3>Bison</h3>
+        <p>Introducing our robust bison herd, led by the mighty Thunder, and his companions, Storm and Breeze. These magnificent creatures, often referred to as buffalo, are symbols of the American West and once roamed the plains in vast numbers. Observe our bison as they graze on the grasslands, showcasing their strength and resilience. Learn about their historical significance, their role in the ecosystem, and the conservation efforts that have helped restore their populations in the wild.
+
+        </p>
+        <img src="moose-1-sam-te-kiefte.jpg" alt="picture of moose" title="moose">
+        <h4>Moose</h4>
+        <p>Meet our majestic moose duo, Maple and Forest. These awe-inspiring animals are the largest members of the deer family and are known for their towering stature and impressive antlers. Watch as Maple and Forest roam our American area, foraging on aquatic vegetation and demonstrating their exceptional swimming abilities. Discover more about their unique adaptations, social structure, and the ongoing conservation programs aimed at protecting their habitats and populations.
+
+        </p>
+        <img src="beaver-2-francesco-ungaro.jpg" alt="picture of beaver" title="beaver">
+        <h5>Beaver</h5>
+        <p>Say hello to our industrious beaver family, Chip and Willow, along with their adorable kits. These remarkable rodents are known as nature's engineers, with their ability to build intricate dams and lodges that play a vital role in maintaining healthy wetland ecosystems. Observe our beavers at work as they construct and maintain their impressive structures, using their sharp teeth and powerful tails. Learn about their fascinating social behaviors, their importance in the ecosystem, and the conservation efforts in place to protect these incredible creatures.
+        </p>
 
     </main>
     <footer>
@@ -56,6 +72,35 @@
     nav li:hover{
         opacity: 1;
         text-align: center;
+    }
+    h2{
+        font-family:'Slackey', cursive;
+        color:#31572C;
+        text-align:center;
+        background-color: #7F5539;
+    }
+    img{
+        width:100%;
+    }
+    h3{
+        font-size:1.5rem;
+        font-family:'Fira Sans Condensed', sans-serif;
+        color: #7F5539;
+
+    }
+    h4{
+        font-size:1.5rem;
+        font-family:'Fira Sans Condensed', sans-serif;
+        color: #7F5539;
+    }
+    h5{
+        font-size:1.5rem;
+        font-family:'Fira Sans Condensed', sans-serif;
+        color: #7F5539;
+    }
+    p{
+        font-family:'Fira Sans Condensed', sans-serif;
+    
     }
     footer{
         background-color:#31572C ;
